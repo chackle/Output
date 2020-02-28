@@ -31,6 +31,7 @@ Output also provides helpers to make logging work the way it should do. We often
 
 ``` swift
 let result: Result<Any, LocalizedNetworkError> = .failure(NetworkError.forbidden)
+log(ressult)
 ```
 =>
 
